@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/programs.html</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/gallery.html</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/enquiry.html</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR_GITHUB_PAGES_URL/contact.html</loc>
+  </url>
+
+</urlset>

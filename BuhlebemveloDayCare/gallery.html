@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery - BuhleBemvelo Day Care</title>
+  <title>Gallery | BuhleBemvelo Day Care</title>
+<meta name="description" content="View photos of children learning, playing and growing together at BuhleBemvelo Day Care in Orange Farm.">
+<meta name="keywords" content="day care pictures, children learning, childcare photos">
+
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+
 </head>
 <body>
   <div class="container">
@@ -17,21 +22,30 @@
       <a href="programs.html">Programs</a> | 
       <a href="gallery.html">Gallery</a> | 
       <a href="contact.html">Contact/Enroll</a>
+      <a href="enquiry.html">enquiry</a>
     </nav>
 
     <hr />
 
-    <div class="section">
-      <p>Here are some moments of children learning and playing at BuhleBemvelo Day Care:</p>
+    <div><section class="gallery-section">
+  <h2>Gallery</h2>
 
-      <img src="OIP.webp" alt="Children in classroom" />
-      <img src="f0337409-800px-wm.jpg" alt="Kids playing outside" />
-      <img src="storytime_banner_1024x1024.webp" alt="Storytime session" />
-    </div>
+  <div class="gallery-grid">
+    <img src="OIP.webp" class="gallery-img" alt="children learning">
+    <img src="storytime_banner_1024x1024.webp" class="gallery-img" alt="story time">
+    <img src="f0337409-800px-wm.jpg" class="gallery-img" alt="classroom">
   </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span id="closeBtn">&times;</span>
+  <img id="lightboxImg">
+</div>
 
   <footer>
     <p>&copy; 2025 BuhleBemvelo Day Care | All Rights Reserved</p>
   </footer>
 </body>
+
 </html>

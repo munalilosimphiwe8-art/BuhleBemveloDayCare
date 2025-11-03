@@ -123,3 +123,59 @@ footer {
   font-size: 0.9em;
   color: #777;
   padding: 2
+
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  border: none;
+  background: #f2b705;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border-left: 3px solid #f2b705;
+  background: #fff8dd;
+}
+.gallery-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  width: 60%;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 20px; right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+

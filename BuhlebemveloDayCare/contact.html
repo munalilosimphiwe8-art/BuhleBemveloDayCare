@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact Us - BuhleBemvelo Day Care</title>
+  <title>Contact & Enrol | BuhleBemvelo Day Care</title>
+<meta name="description" content="Contact BuhleBemvelo Day Care to enrol your child, make enquiries, or ask questions about programs, fees and availability.">
+<meta name="keywords" content="contact day care, enrol day care, enquire, Orange Farm daycare contact">
+
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+
 </head>
 <body>
   <div class="container">
@@ -18,6 +23,7 @@
       <a href="programs.html">Programs</a> | 
       <a href="gallery.html">Gallery</a> | 
       <a href="contact.html">Contact/Enroll</a>
+      <a href="enquiry.html">Enquiry</a>
     </nav>
 
     <hr />
@@ -30,28 +36,29 @@
     </div>
 
     <!-- Enrollment Form Section -->
-    <form action="mailto:buhlebemvelodaycare20@gmail.com" method="post" enctype="text/plain">
-      <h2>Enrollment Form</h2>
+    <form id="contactForm">
+  <label>Full Name:</label>
+  <input type="text" id="fullName" required>
 
-      <label for="parent">Parent/Guardian Name:</label>
-      <input type="text" id="parent" name="parent" required />
+  <label>Email Address:</label>
+  <input type="email" id="email" required>
 
-      <label for="child">Child’s Name:</label>
-      <input type="text" id="child" name="child" required />
+  <label>Message Type:</label>
+  <select id="messageType" required>
+    <option value="">Select type</option>
+    <option value="General">General Message</option>
+    <option value="Feedback">Feedback</option>
+    <option value="Complaint">Complaint</option>
+  </select>
 
-      <label for="age">Child’s Age:</label>
-      <input type="text" id="age" name="age" required />
+  <label>Your Message:</label>
+  <textarea id="message" required minlength="10"></textarea>
 
-      <label for="program">Program Interested In:</label>
-      <input type="text" id="program" name="program" required />
+  <button type="submit">Send Message</button>
+</form>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Any additional information or questions"></textarea>
-
-      <input type="submit" value="Send" />
-      <input type="reset" value="Clear" />
-    </form>
-  </div>
+<p id="response"></p>
+</div>
 
   <footer>
     <p>&copy; 2025 BuhleBemvelo Day Care | All Rights Reserved</p>
