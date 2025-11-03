@@ -4,41 +4,58 @@ WEDE5020POE
 BuhleBemvelo Day Care Website
 
 Overview
-This project is a website for BuhleBemvelo Day Care, a reputable daycare center dedicated to providing quality care and education to young children. The website is designed to provide essential information about the daycare center's mission, services, programs, and enrollment process. Built using HTML, the website features various pages, including Home, About, Programs, Gallery, and Contact, to cater to the needs of parents, guardians, and stakeholders.
+BuhleBemvelo Day Care is a child development centre based in Orange Farm.
+This website provides information for parents/guardians about our programs, daily activities, enrolment, gallery and direct contact options.
+It is built as a multi-page website using HTML, CSS and JavaScript, and includes responsive design, SEO optimisation and JavaScript form validation.
+
+Pages Included
+Page	Description
+index.html	Home / landing page
+about.html	Mission, vision & values
+programs.html	Age groups, learning programs
+gallery.html	Pictures of day care activities
+enquiry.html	Enquiry form (fees / availability / volunteering)
+contact.html	Contact & general message form
 
 Features
-- Responsive Design: The website is designed to be accessible on various devices, ensuring a seamless user experience across different screen sizes and devices.
-- Navigation Menu: A navigation bar provides easy access to different sections of the website, allowing users to quickly find the information they need.
-- Program Information: Detailed information about the daycare center's programs and services, including age groups, core services, and additional services.
-- Gallery: A photo gallery showcasing the daycare center's activities, facilities, and happy moments, giving parents and guardians a glimpse into the daily life of the children.
-- Enrollment Form: A contact/enrollment form for parents/guardians to express interest in the programs, making it easy for them to take the first step in enrolling their child.
+•	Full multi-page navigation
+•	Responsive layout & styling with external CSS
+•	Accordion interactive sections using JavaScript
+•	Lightbox Image Gallery using JavaScript
+•	Form validation using JavaScript (contact + enquiry)
+•	SEO Title Tags + Meta Descriptions + Keywords added
+•	robots.txt + sitemap.xml for search engines
+File Structure
+BuhleBemveloDayCare
+  |── index.html
+  |── about.html
+  |── programs.html
+  |── gallery.html
+  |── enquiry.html
+  |── contact.html
+  |── style.css
+  |── script.js
+  |── robots.txt
+  |── sitemap.xml
+  |── images/
 
 Technologies Used
-- HTML: For structuring the content and layout of the website, providing a solid foundation for the web pages.
+•	HTML5
+•	CSS3
+•	JavaScript
+•	GitHub for version control
 
-Project Structure
-The project includes the following files:
+Changelog
+[03 November 2025] Added interactive accordion sections to the services (programs) page using JavaScript DOM manipulation. Created script.js and linked it to the page. Improved user experience by allowing program information to expand/collapse.
 
-- index.html: The homepage of the website, providing an introduction to BuhleBemvelo Day Care.
-- about.html: Information about the daycare center's mission, vision, and values.
-- programs.html: Details about the programs offered, including age groups, core services, and additional services.
-- gallery.html: A photo gallery showcasing the daycare center's activities and facilities.
-- contact.html: A contact/enrollment form for parents/guardians to express interest in the programs.
+[03 November 2025] Added Lightbox Gallery feature using JavaScript event listeners on gallery.html. Users can click images to view in a larger modal for improved visual experience.
 
-Future Development
-This project can be further developed by adding more features, such as:
+[03 November 2025] Added JavaScript validation to contact form to check name, email, message type selection and minimum message length before submission. Displays user feedback message and resets the form on success.
 
-- Dynamic Content: Using a backend technology to manage and update content, ensuring that the website remains fresh and up-to-date.
-- User Authentication: Allowing parents/guardians to create accounts and access exclusive content, such as their child's progress and upcoming events.
-- Payment Gateway: Integrating a payment system for online enrollment and payments, making it convenient for parents/guardians to complete the enrollment process.
+[03 November 2025] Developed dynamic JavaScript validation and response system for enquiry form. The form now gives different feedback based on enquiry type (fees, availability, volunteering) and validates user input before submission.
 
-License
-This project is licensed under the Sibongile Munalilo.
+[03 November 2025] Added SEO title tags, meta descriptions and keyword tags to all pages to improve search engine visibility and ensure pages are optimised for Google indexing.
+
+[03 November 2025] Added robots.txt and sitemap.xml files to assist search engines with correct indexing and crawling of the website pages.
 
 
-Acknowledgments
-- BuhleBemvelo Day Care for providing the opportunity to develop this website and showcase their excellent services.
-- The development team for their hard work and dedication to creating a high-quality website.
-
-Contact
-For more information about this project or BuhleBemvelo Day Care, please contact 066 213 2477 / 076 107 5186. We'd be happy to hear from you!
